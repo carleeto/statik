@@ -121,7 +121,7 @@ func generateSource(srcPath string) (file *os.File, err error) {
 	fmt.Fprintf(&qb, `package %s
 
 import (
-		"github.com/rakyll/statik/fs"
+		"github.com/carleeto/statik/fs"
 )
 
 func init() {
